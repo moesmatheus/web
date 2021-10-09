@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic-tac-toe</title>
+        <link rel="stylesheet" href="tictactoe.css"/>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="Tic-tac-toe"/>
+        <meta name="description" content="Tic-tac-toe game"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+    </head>
+    <body>
+        <div>
+            <!-- Title -->
+            <h1 style="text-align: center;">Tic Tac Toe</h1>
+            <p style="text-align: center; margin:auto">Turn for: <span id="marker">X</span></p>
+            <h2 id="winner"></h2>
+            <div>
+            <!-- Table -->
+            <table>
+                <tbody id="table">
+                    <!-- Cells inserted with javascript -->
+                </tbody>
+            </table>
+            </div>
+        </div>
+
+        <divS>
+            <button id="restart" onclick="restart()" hidden=true >Restart</button>
+        </div>
+
+    <!-- Generate game -->
+    <script src="tictactoeV2.js"></script>
+    </body>
+</html>

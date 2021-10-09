@@ -1,0 +1,60 @@
+body {
+    padding: 50px;
+    background-color: hsl(180, 10%, 10%);
+}
+
+div {
+    padding: 10px;
+}
+
+h1, h2, p, table {
+    color: hsla(180, 70%, 95%, .8);
+    
+}
+
+h1, h2{
+    text-align: center;
+}
+p:hover, pre:hover, td:hover, th:hover {
+    color: hsla(0, 60%, 20%);
+  }
+
+table {
+    margin: auto;
+}
+
+table, th, td {
+    border: 5px solid hsla(180, 10%, 10%);
+    border-collapse: collapse;
+    border-radius: 15px;
+
+  }
+
+/* Table Row and Columns */
+th, td {
+    background-color:hsla(180, 40%, 40%, .1); 
+
+    text-align: center;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+}
+
+
+th:hover, td:hover {
+    background-color: hsla(180, 70%, 70%);
+}
+
+button {
+    background-color:hsl(180, 40%, 40%, .1); 
+    color: hsl(180, 90%, 80%);
+    align-content: center;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: hsl(180, 10%, 10%); 
+}
